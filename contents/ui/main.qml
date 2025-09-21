@@ -186,7 +186,7 @@ PlasmoidItem {
                 spacing: 4
                 Item { Layout.fillWidth: true }
                 ToolButton {
-                    text: root.doneToday ? i18n("Undo") : i18n("Done")
+                    text: root.doneToday ? i18n("Mark Undone") : i18n("Mark Done")
                     icon.name: root.doneToday ? "edit-undo" : "checkbox"
                     onClicked: root.doneToday ? root.undoToday() : root.markDoneToday()
                 }
