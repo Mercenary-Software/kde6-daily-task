@@ -1,0 +1,19 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Id": "org.mercenary-software.daily-task",
+    "Name": "Daily Task Tracker",
+    "Description": "Track a single recurring task with a daily check-in and streaks.",
+    "Icon": "task-complete",
+    "Authors": [
+      { "Name": "Mercenary Software" }
+    ],
+    "Category": "Productivity",
+    "Version": "1.0",
+    "License": "MIT"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "X-Plasma-MainScript": "ui/main.qml"
+  ,
+  "KConfigXT": "contents/config/main.xml"
+}
