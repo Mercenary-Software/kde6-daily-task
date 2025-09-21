@@ -245,7 +245,7 @@ PlasmoidItem {
                         antialiasing: true
                         color: root.hasDate(key) ? Kirigami.Theme.highlightColor : "transparent"
                         border.color: Kirigami.Theme.textColor
-                        border.width: 2
+                        border.width: key === root.todayKey ? 5 : 2
                         opacity: root.hasDate(key) ? 1.0 : 0.6
                         Layout.alignment: Qt.AlignHCenter
                     }

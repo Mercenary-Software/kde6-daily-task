@@ -4,6 +4,8 @@ This widget tracks a single recurring task with a daily check‑in and streaks. 
 
 ![Screenshot](media/screenshot.png)
 
+I got the inspiration from a fellow developer on discord who made a tool for macos, who also got their inspiration from Simone Giertz, who again likely got their inspiration from someone.
+
 ## Features
 - Single task configurable in settings
 - One‑click “Mark Done” per day, with Undo (localized)
